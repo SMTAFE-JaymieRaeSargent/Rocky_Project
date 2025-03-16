@@ -1,5 +1,7 @@
 namespace NPC
 {
+    //creating choice yes no 
+    //approval system 
     using UnityEngine;
     using UnityEngine.UI;
     public class LinearDlg : MonoBehaviour
