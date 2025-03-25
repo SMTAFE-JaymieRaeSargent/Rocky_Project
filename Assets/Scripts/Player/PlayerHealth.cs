@@ -7,9 +7,10 @@ namespace Player
         [SerializeField] float _currentHealth = 100;
         [SerializeField] float _maxHealth = 100;
         [SerializeField] Image _healthBar;
-
         void Start()
         {
+          
+           // Damage.Instance.CD(1,2.5f);
         }
         void Update()
         {
